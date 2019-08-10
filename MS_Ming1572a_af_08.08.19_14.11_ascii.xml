@@ -1,0 +1,1354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Arabic1.xsl"?><!DOCTYPE transcription [
+	<!ENTITY lac "[Lacuna]"> <!-- Lacuna -->  
+	<!ENTITY fasila "·"> <!-- fasila -->
+	<!ENTITY fasila3 "·"> <!-- fasila3 -->
+	<!ENTITY fasila4 "·"> <!-- fasila4 -->
+	<!ENTITY fasila5 "·"> <!-- fasila5 -->
+	<!ENTITY fasila6 " ∵ "> <!-- fasila6 -->
+	<!ENTITY khatima "~~~~~~~~"> <!--khatima -->
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+
+      <titleStmt>
+        <title>A Transcription and analysis of MS Birmingham, Mingana Islamic Arabic 1572a Q:18, Q:19, Q.20
+        </title>
+        <title type="document" n="1572a">1572a</title>
+        <title type="collection" level="s" xml:lang="en">Qur'an manuscript fragment</title>
+        <respStmt>
+          <resp>Created by</resp>
+          <name>Alba Fedeli</name>
+        </respStmt>
+      </titleStmt>
+
+      <editionStmt>
+        <edition>edited with reference to the base text of the digital Mushaf Muscat, verified and approved by the Institute of Islamic Research at Al-Azhar</edition>
+      </editionStmt>
+
+      <publicationStmt>
+        <authority>previous edition by Alba Fedeli in ITSEE, University of Birmingham. Revised
+          edition by Alba Fedeli in University of Hamburg</authority>
+      </publicationStmt>
+
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>UK</country>
+            <settlement>Birmingham</settlement>
+            <repository>Mingana Collection</repository>
+            <idno>Mingana Islamic Arabic 1572a</idno>
+            <msName xml:lang="la">Manuscript</msName>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <p>
+                The two leaves were originally numbered f.7 and f.1.
+                After they have been interpreted by Alba Fedeli as a distinct object within MS 1572, they received a new numbering, i.e. f. 1 and 2
+              </p>
+              <p>
+                The original manuscript was composed of nine leaves, registered as MS 1572 when entered the Library Collection in the 1930s.
+                In 2011, Alba Fedeli distinguished two distinct objects, i.e. a two-leaf fragment and a seven-leaf fragment.
+                Then, in 2015, the original manuscript was disassembled for conservation purposes and 
+                the two-leaf object was identified as MS 1572a 
+                while the seven-leaf object was identified as MS 1572b
+              </p>
+              <p>
+                The parchment material has been radiocarbon dated 
+                at the University of Oxford's Radiocarbon Accelerator Unit.
+                The analyses gave as a result the period between the year 568 and 645 CE with 95.4% confidence.
+              </p>
+            </objectDesc>            
+          </physDesc>
+        </msDesc>
+        <listWit>
+          <witness xml:id="Bahr">al-Baḥr al-muḥīṭ by Abū Ḥayyān al-Andalusī</witness>
+          <witness xml:id="Durr">al-Durr al-maṣūn fī ʿilm al-kitāb al-maknūn by al-Samīn
+            al-Ḥalabī</witness>
+          <witness xml:id="IthafB">Itḥāf fuḍalā’ al-bašar bi-l-qirā’āt al-arbaʿata ʿašara by Aḥmad
+            b. Muḥammad al-Bannā’</witness>
+          <witness xml:id="KashZam">al-Kaššāf ʿan ḥaqā’iq al-tanzīl by al-Zamaḫšārī</witness>
+          <witness xml:id="Muhar">al-Muḥarrar al-wagīz fī tafsīr al-kitāb al-ʿazīz by ʿAbd al-Ḥaqq
+            bin ʿAṭīya al-Andalusī</witness>
+          <witness xml:id="QirIMuj">Kitāb al-sabʿa fī-l-qirā’āt by Ibn Mujāhid</witness>
+          <witness xml:id="QirKHal">I‘rāb al-qirā’āt al-sabʿ wa-ʿilalu-ha by al-Ḥusayn bin Aḥmad bin
+            Ḫālawayh</witness>
+          <witness xml:id="SHawKHal">Muḥtaṣar fī šawāḏḏ al-Qur’ān by Ibn Ḫālawayh</witness>
+          <witness xml:id="TaysDani">Kitāb al-taysīr fī-l-qirā’āt al-sabʿ by al-Dānī</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+
+    <encodingDesc>
+      <variantEncoding location="internal" method="double-end-point"/>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2019-08-08">retracement of diacritics not noted</change>
+    </revisionDesc>
+
+  </teiHeader>
+
+  <text>
+    <body>
+      <pb n="7r-"/>
+      <lb/>
+      <div type="surah" n="al-Kahf">
+        <gap reason="fragmWit" unit="ayah" extent="1-16"/>
+        <lb/>
+        <ab type="ayah" n="17">
+          <gap reason="fragmWit"/>
+          <supplied>
+            وترى الشمس إذا طلعت تزاور عن كهفهم ذات اليمين وإذا غربت تقرضهم ذات الشمال وهم
+            في فجوة منه ذلك من آيات 
+          </supplied>
+
+
+
+
+
+        <pb
+            facs="folio 7r.jpg"/>
+          <!-- text contained on folio 7r is encoded here http://vmr.bham.ac.uk/Collections/Mingana/Islamic_Arabic_1572a/Mingana_Islamic_Arabic_1572a_folio_1_recto/viewer/full/ text contained on folio 7r is encoded here -->
+          <pb n="7r"/>
+          <lb n="1"/>
+          الله مں ىهد الله ڡهو 
+          <supplied reason="lacuna">
+            ا 
+          </supplied>
+          لمهٮد ومں ىصلل
+            <lb n="2"/>
+          ڡلں تحد له ولىا مرسدا 
+          <retrace hand="#thirdStage">
+            <pc unit="ayah" pre="false">
+              &fasila5;
+            </pc>
+          </retrace>
+        </ab>
+        <ab type="ayah" n="18">
+          وتحسبهم 
+          <app>
+            <lem>
+              أَيقاظًا 
+            </lem>
+            <rdg type="orthography" cause="alif,longA">
+              اىٯطا 
+            </rdg>
+          </app>
+          وهم 
+          <lb n="3"/>
+          رٯود ونٯلبهم داٮ الىمىں ودات ا 
+          <lb n="4" break="no"/>
+          لسمال وكلبهم بسط 
+          <app>
+            <lem>
+              ذِراعَيهِ 
+            </lem>
+            <rdg type="orthography" cause="alif,longA">
+              درعىه 
+            </rdg>
+          </app>
+          ٮالوصٮد 
+          <app>
+            <rdg type="verseSubdivision">
+              <retrace hand="#thirdStage">
+                <pc unit="ayah" pre="false">
+                  &fasila6;
+                </pc>
+              </retrace>
+              <note>presence of extra marker of end of verse within verse 18 of the base text
+              </note>
+            </rdg>
+          </app>
+          <lb n="5"/>
+          لو اطلعت علىهم لولىت منهم 
+          <app>
+            <lem>
+              فِرارًا 
+            </lem>
+            <rdg type="orthography" cause="alif,longA">
+              ڡررا 
+            </rdg>
+          </app>
+          و 
+          <lb n="6" break="no"/>
+          لملٮت منهم رعبا 
+          <pc unit="ayah" pre="false">
+            &fasila5;
+          </pc>
+        </ab>
+        <ab type="ayah" n="19">
+          وكدلک بعثنهم لىتسا 
+          <lb n="7" break="no"/>
+          لوا ٮىٮهم 
+          <app>
+            <lem>
+              قالَ 
+            </lem>
+            <rdg type="orthography" cause="alif,longA">
+              ٯل 
+            </rdg>
+          </app>
+          <app>
+            <lem>
+              قائِلٌ 
+            </lem>
+            <rdg type="orthography" cause="alif,longA">
+              ٯىل 
+            </rdg>
+          </app>
+          منهم كم لبثتم 
+          <app>
+            <lem>
+              قالوا 
+            </lem>
+            <rdg type="orthography" cause="alif,longA">
+              ٯلوا 
+            </rdg>
+          </app>
+          لبثنا 
+          <lb n="8"/>
+          ىوما او ٮعص ىوم 
+          <app>
+            <lem>
+              قالوا 
+            </lem>
+            <rdg type="orthography" cause="alif,longA">
+              ٯلوا 
+            </rdg>
+          </app>
+          رٮكم اعلم بما 
+          <lb n="9"/>
+          لٮثتم ڡابعثوا احدكم بورٯكم هده 
+          <lb n="10"/>
+          الى المدىنه ڡلىنطر اىها اركى 
+          <app>
+            <lem>
+              طَعامًا 
+            </lem>
+            <rdg type="orthography" cause="alif,longA">
+              طعما 
+            </rdg>
+          </app>
+          <lb n="11"/>
+          ڡلىاتكم بررٯ مٮه ولىتلطڡ ولا ىسعرں 
+          <lb n="12"/>
+          بكم احدا 
+          <retrace hand="#thirdStage">
+            <pc unit="ayah" pre="false">
+              &fasila5;
+            </pc>
+          </retrace>
+        </ab>
+        <ab type="ayah" n="20">
+          انهم اں ىطهروا علىكم 
+          <lb n="13"/>
+          ىرحموكم او ىعىدوكم ڡى ملتهم ولں تڡلحو 
+          <lb n="14" break="no"/>
+          ا ادا ابدا 
+          <retrace hand="#thirdStage">
+            <pc unit="ayah" pre="false">
+              &fasila5;
+            </pc>
+          </retrace>
+        </ab>
+        <ab type="ayah" n="21">
+          وكدلک اعثرنا علىهم 
+          <lb n="15"/>
+          لىعلموا اں وعد الله حٯ واں الساعه
+            <lb n="16"/>
+          لا رىب ڡىها اد ىتنزعوں بىنهم امرهم 
+          <lb n="17"/>
+          ڡٯالوا ابنوا علىهم بنىنارٮهم اعلم 
+          <lb n="18"/>
+          <supplied reason="lacuna">
+            بهم 
+          </supplied>
+          <app>
+            <lem>
+              قالَ 
+            </lem>
+            <rdg type="orthography" cause="alif,longA">
+              ٯل 
+            </rdg>
+          </app>
+          الدىں غلبوا على امرهم لٮتحدں 
+          <lb n="19"/>
+          <supplied reason="lacuna">
+            علىهم مـ 
+          </supplied>
+          ـسحدا 
+          <pc unit="ayah" pre="false">
+            &fasila5;
+          </pc>
+        </ab>
+        <ab type="ayah" n="22">
+          سىٯولوں ثلثه 
+          <app>
+            <lem>
+              رابِعُهُم 
+            </lem>
+            <rdg type="orthography" cause="alif,longA">
+              ربعهم 
+            </rdg>
+          </app>
+          <lb n="20"/>
+          <supplied reason="lacuna">
+            كلبهم 
+          </supplied>
+          وىٯولوں حمسه 
+          <app>
+            <lem>
+              سادِسُهُم 
+            </lem>
+            <rdg type="orthography" cause="alif,longA">
+              سدسهم 
+            </rdg>
+          </app>
+          كلبهم 
+          <lb n="21"/>
+          <supplied reason="lacuna">
+            رجما با 
+          </supplied>
+          لعىب وىٯولوں سبعه 
+          <app>
+            <lem>
+              وَثامِنُهُم 
+            </lem>
+            <rdg type="orthography" cause="alif,longA">
+              وثمٮهم 
+            </rdg>
+          </app>
+          <lb n="22"/>
+          <supplied reason="lacuna">
+            كلبهـ 
+          </supplied>
+          ـم ٯل رٮى اعلم ٮعدتهم ما ىعلمهـ
+            <supplied reason="lacuna">
+              ـم 
+            </supplied>
+          <lb n="23"/>
+          <supplied reason="lacuna">
+            الا ٯـ 
+          </supplied>
+          ـلىل 
+          <supplied reason="lacuna">
+            ڡلا 
+          </supplied>
+          <app>
+            <lem>
+              تُمارِ 
+            </lem>
+            <rdg type="orthography" cause="alif,longA">
+              تمر 
+            </rdg>
+          </app>
+          ڡىهم الا مرا طهرا و 
+          <supplied reason="lacuna">
+            لا 
+          </supplied>
+          <lb n="24"/>
+          <supplied reason="lacuna">
+            تستـ 
+          </supplied>
+          ـڡت ڡىهم منهم احدا 
+          <retrace hand="#thirdStage">
+            <pc unit="ayah" pre="false">
+              &fasila6;
+            </pc>
+          </retrace>
+        </ab>
+        <ab type="ayah" n="23">
+          ولا تٯو 
+          <supplied reason="lacuna">
+            لں 
+          </supplied>
+          <pb
+            facs="folio 7v.jpg"/>
+          <!-- text contained on folio 7v is encoded here http://vmr.bham.ac.uk/Collections/Mingana/Islamic_Arabic_1572a/Mingana_Islamic_Arabic_1572a_folio_1_verso/viewer/full/ text contained on folio 7v is encoded here -->
+          <pb n="7v"/>
+          <lb n="1"/>
+          لساى انى 
+          <app>
+            <lem>
+              فاعِلٌ 
+            </lem>
+            <rdg type="orthography" cause="alif,longA">
+              ڡعل 
+            </rdg>
+          </app>
+          دلک عدا 
+          <pc unit="ayah" pre="false">
+            &fasila5;
+          </pc>
+        </ab>
+        <ab type="ayah" n="24">
+          الا اں ىسا الله 
+          <lb n="2"/>
+          وادكر رٮک ادا نسىت وٯل عسى اں 
+          <lb n="3"/>
+          ىهدىں رٮى لاٯرب مں هدا رسدا 
+          <pc unit="ayah" pre="false">
+            &fasila6;
+          </pc>
+        </ab>
+        <ab type="ayah" n="25">
+          ولبثوا 
+          <lb n="4"/>
+          ڡى كهڡهم ثلث ماىه سنىں 
+          <app>
+            <lem>
+              وَازدادوا 
+            </lem>
+            <rdg type="orthography" cause="alif,longA">
+              وارددوا 
+            </rdg>
+          </app>
+          <lb n="5"/>
+          ٮسعا 
+          <retrace hand="#thirdStage">
+            <pc unit="ayah" pre="false">
+              &fasila5;
+            </pc>
+          </retrace>
+        </ab>
+        <ab type="ayah" n="26">
+          ٯل الله اعلم ٮما لبثوا له غىب 
+          <lb n="6"/>
+          السموت والارص ابصر ٮه واسمع ما 
+          <lb n="7"/>
+          لهم مں دونه مں ولى ولا 
+          <app>
+            <lem>
+              يُشرِكُ 
+            </lem>
+            <rdg type="semantics" cause="impf,YT">
+              تسرک 
+            </rdg>
+          </app>
+          <app>
+            <wit source="qāriʾ">
+              إبن عامر 
+              <note type="qirāʾah">
+                بالتاء على الخطاب، وجزم الكاف، على
+                النهي، وافقه المطوعي، والحسن. والباقون بالغيب، ورفع الكاف، على الخبر 
+              </note>
+            </wit>
+          </app>
+          ڡى حكمه 
+          <lb n="8"/>
+          احدا 
+          <retrace hand="#thirdStage">
+            <pc unit="ayah" pre="false">
+              &fasila6;
+            </pc>
+          </retrace>
+        </ab>
+        <ab type="ayah" n="27">
+          واتل ما اوحى الىک مں 
+          <app>
+            <lem>
+              كِتابِ 
+            </lem>
+            <rdg type="orthography" cause="alif,longA">
+              كتب 
+            </rdg>
+          </app>
+          <lb n="9"/>
+          رٮک لا مبدل لكلمته ولں ٮحد مں دونه 
+          <lb n="10"/>
+          ملٮحدا 
+          <retrace hand="#thirdStage">
+            <pc unit="ayah" pre="false">
+              &fasila6;
+            </pc>
+          </retrace>
+        </ab>
+        <ab type="ayah" n="28">
+          واصبر ٮڡسک مع الدىں ىدعو 
+          <lb n="11" break="no"/>
+          ں ربهم ٮالعدوه والعسى ىرىدوں وحهه 
+          <lb n="12"/>
+          ولا ٮعد عىناک عنهم ترىد زىنه الحىو 
+          <lb n="13" break="no"/>
+          ه الدٮىا ولا تطع مں اعڡلنا ٯلبه عں دكر 
+          <lb n="14" break="no"/>
+          نا واتبع هوىه وكاں امره ڡرطا 
+          <retrace hand="#thirdStage">
+            <pc unit="ayah" pre="false">
+              &fasila5;
+            </pc>
+          </retrace>
+        </ab>
+        <ab type="ayah" n="29">
+          و ٯل 
+          <lb n="15"/>
+          الحٯ مں ربكم ڡمں سا ڡلىومں ومں سا ڡلىکـ 
+          <supplied reason="lacuna">
+            ـڡر 
+          </supplied> 
+          <lb n="16"/>
+          انا اعتدنا للطلمىں نارا احاط بهم 
+          <lb n="17"/>
+          <app>
+            <lem>
+              سُرادِقُها 
+            </lem>
+            <rdg type="orthography" cause="alif,longA">
+              سردٯها 
+            </rdg>
+          </app>
+          واں ىستغىثوا 
+          <app>
+            <lem>
+              يُغاثوا 
+            </lem>
+            <rdg type="orthography" cause="alif,longA">
+              ىغثوا 
+            </rdg>
+          </app>
+          بما كالمهـ 
+          <supplied reason="lacuna">
+            ـل 
+          </supplied>
+          <lb n="18"/> 
+          ىشوى الوحوه بىس 
+          <app>
+            <lem>
+              الشَّرابُ 
+            </lem>
+            <rdg type="orthography" cause="alif,longA">
+              السرب 
+            </rdg>
+          </app>
+          وسات 
+          <supplied reason="lacuna">
+            مر 
+          </supplied>
+          <lb n="19" break="no"/>
+          تڡٯا 
+          <retrace hand="#thirdStage">
+            <pc unit="ayah" pre="false">
+              &fasila5;
+            </pc>
+          </retrace>
+        </ab>
+        <ab type="ayah" n="30">
+          اں الدىں 
+          <app>
+            <rdg type="#firstStage">
+              امٮوا 
+            </rdg>
+            <rdg type="#thirdStage">
+              <choice>
+                <sic>
+                  امتوا 
+                </sic>
+                <corr type="diac">
+                  امٮوا 
+                </corr>
+              </choice>
+            </rdg>
+          </app>
+          وعملوا الـ 
+          <supplied reason="lacuna">
+            ـصلحت انا 
+          </supplied>
+          <lb n="20"/>
+          لا ٮصىع 
+          <mod hand="#thirdStage" type="rubbing" scope="letterShape" extent="initJīm">
+            احر 
+            <note type="script">
+              the third stage has amended the letter shape of initial jīm 
+              shortening its initial horizontal trait
+            </note>
+          </mod>
+          مں احسں 
+          <mod hand="#thirdStage" type="rubbing" scope="letterShape" extent="initAyn">
+            عملا 
+            <note type="script">
+              the third stage has amended the letter shape of initial ‘ayn 
+              shortening its initial horizontal trait
+            </note>
+          </mod>
+          <retrace hand="#thirdStage">
+            <pc unit="ayah" pre="false">
+              &fasila5;
+            </pc>
+          </retrace>
+        </ab>
+        <ab type="ayah" n="31">
+          او 
+          <supplied reason="lacuna">
+            لىک لهم 
+          </supplied>
+          <lb n="21"/>
+          حنت 
+          <mod hand="#thirdStage" type="rubbing" scope="letterShape" extent="initAyn">
+            عدں 
+            <note type="script">
+              the third stage has amended the letter shape
+              of initial ‘ayn shortening its initial horizontal trait
+            </note></mod>
+          <mod hand="#thirdStage" type="rubbing" scope="letterShape" extent="finalYā’">
+            ٮحرى 
+            <note type="script">
+              the third stage erased the horizontally extended tail of retroflex yā’
+              at the end of the word and traced a tail vertically extended in a S-like shape with
+              black ink
+            </note>
+          </mod>
+          مں تحتهم الاٮهـ 
+          <supplied reason="lacuna">
+            ـر يحلون فيها 
+          </supplied>
+          <lb n="22"/>
+          مں 
+          <app>
+            <lem>
+              أَساوِرَ 
+            </lem>
+            <rdg type="orthography" cause="alif,longA">
+              اسور 
+            </rdg>
+          </app>
+          مں دهب وىلٮسوں 
+          <app>
+            <lem>
+              ثِيابًا 
+            </lem>
+            <rdg type="orthography" cause="alif,longA">
+              ثىٮا 
+            </rdg>
+          </app>
+          حـ 
+          <supplied reason="lacuna">
+            ـضرا من سند 
+          </supplied>
+          <lb n="23" break="no"/>
+          <supplied reason="lacuna">
+            س 
+          </supplied>
+          واستبرٯ مٮكىں ڡىها عـ 
+          <supplied reason="lacuna">
+            ـلى 
+          </supplied>
+          الار 
+          <supplied reason="lacuna">
+            اىک 
+          </supplied>
+          <pb n="7v+"/>
+          <lb/>
+          <gap reason="fragmWit"/>
+          <supplied>
+            نعم الثواب وحسنت مرتفقا 
+          </supplied>
+        </ab>
+        <gap reason="fragmWit" unit="ayah" extent="32-110"/>
+      </div>
+
+      <pb n="1r-"/>
+     <lb/>
+      <div type="surah" n="Maryam">
+        <gap reason="fragmWit" unit="ayah" extent="1-90"/>
+        <lb/>
+        <ab type="ayah" n="91">
+          <gap reason="fragmWit"/>
+          <supplied>
+            أن 
+          </supplied>
+          <pb facs="folio 1r.jpg"/>
+          <!-- text contained on folio 1r is encoded here http://vmr.bham.ac.uk/Collections/Mingana/Islamic_Arabic_1572a/Mingana_Islamic_Arabic_1572a_folio_2_recto/viewer/full/ text contained on folio 1r is encoded here -->
+          <pb n="1r"/>
+          <lb n="1"/>
+          دعوا للرحمں ولدا 
+          <pc unit="ayah" pre="false">
+            &fasila4;
+          </pc>
+        </ab>
+        <ab type="ayah" n="92">
+          وما ىنٮعى للرحمں 
+          <lb n="2"/>
+          اں ىتحد ولدا 
+          <retrace hand="#thirdStage">
+            <pc unit="ayah" pre="false">
+              &fasila5;
+            </pc>
+          </retrace>
+        </ab>
+        <ab type="ayah" n="93">
+          اں كل مں ڡى السموت وا 
+          <lb n="3" break="no"/>
+          لارص الا اتى الرحمں
+          عبدا 
+          <retrace hand="#thirdStage">
+            <pc unit="ayah" pre="false">
+              &fasila5;
+            </pc>
+          </retrace>
+        </ab>
+        <ab type="ayah" n="94">
+          لٯد احصٮهم 
+          <lb n="4"/>
+          وعدهم عدا 
+          <retrace hand="#thirdStage">
+            <pc unit="ayah" pre="false">
+              &fasila5;
+            </pc>
+          </retrace>
+        </ab>
+        <ab type="ayah" n="95">
+          وكلهم اتىه ىوم الٯىمه 
+          <lb n="5"/>
+          ڡردا 
+          <retrace hand="#thirdStage">
+            <pc unit="ayah" pre="false">
+              &fasila5;
+            </pc>
+          </retrace>
+        </ab>
+        <ab type="ayah" n="96">
+          اں الدىں امنوا وعملوا الصلحت 
+          <lb n="6"/>
+          سىحعل لهم الرحمں ودا
+            <retrace hand="#thirdStage">
+              <pc unit="ayah" pre="false">
+                &fasila5;
+              </pc>
+            </retrace>
+        </ab>
+        <ab type="ayah" n="97">
+          ڡاٮما ىسرنه 
+          <lb n="7"/>
+          <app>
+            <lem>
+              بِلِسانِكَ 
+            </lem>
+            <rdg type="orthography" cause="alif,longA">
+              بلسنک 
+            </rdg>
+          </app>
+          لتبسر به المٮٯىں وتندر ٮه ٯوما لدا 
+          <pc unit="ayah" pre="false">
+            &fasila5;
+          </pc>
+        </ab>
+        <ab type="ayah" n="98">
+          و 
+          <lb n="8" break="no"/>
+          كم اهلكنا ٯبلهم مں ٯرں هل ٮحس مٮهم مں احد او 
+          <lb n="9"/>
+          ٮسمع لهم ركرا 
+          <pc unit="ayah" pre="false">
+            &fasila5;
+          </pc>
+          <note type="surahSubdivision">
+            slanted strokes fill the empty part of the line, marking
+            the end of the last verse of the sūra. An empty line between Q.19 and Q.20 has been
+            filled in with a decoration
+          </note>
+          <lb n="10"/>
+          &khatima; 
+          <note type="surahSubdivision">
+            a decoration marks the chapter ending:
+            three wavy lines ending in a stylised palmette in red ink and black dots, alike the
+            decoration in MS BnF328c, f.73v, l.12
+          </note>
+        </ab>
+      </div>
+
+        <lb n="11"/>
+      <div type="surah" n="Ta-Ha">
+        <ab type="ayah" n="1">
+          <retrace hand="red ink"> 
+            بسم الله الرحمں الرحىم 
+            <app>
+              <rdg type="verseSubdivision">
+                <pc unit="ayah" pre="false">
+                  &fasila5;
+                </pc>
+                <note>
+                  presence of extra marker of end of verse after the basmala
+                </note>
+              </rdg>
+            </app> 
+            طه 
+          </retrace>
+          <app>
+            <rdg type="verseSubdivision">
+              <gap/>
+              <note>
+                absence of marker of end of verse 1 of the base text
+              </note>
+            </rdg>
+          </app>
+        </ab>
+        <ab type="ayah" n="2">
+          <retrace>
+            ما انزلنا 
+          </retrace>
+          <lb n="12"/>
+          علىک الٯراں لتسٯى 
+          <pc unit="ayah" pre="false">
+            &fasila5;
+          </pc>
+        </ab>
+        <ab type="ayah" n="3">
+          الا تدكره لمں ىحسى 
+          <unclear reason="faded ink">
+            <pc unit="ayah" pre="false">
+              &fasila5;
+            </pc>
+          </unclear>
+        </ab>
+        <lb n="13"/>
+        <ab type="ayah" n="4">
+          تنزىلا ممں حلٯ الارص والسموت العلى 
+          <retrace hand="#thirdStage">
+            <pc unit="ayah" pre="false">
+              &fasila5;
+            </pc>
+          </retrace>
+        </ab>
+        <lb n="14"/>
+        <ab type="ayah" n="5">
+          الرحمں على العرس استوى 
+          <retrace hand="#thirdStage">
+            <pc unit="ayah" pre="false">
+              &fasila4;
+            </pc>
+          </retrace>
+        </ab>
+        <ab type="ayah" n="6">
+          له ما ڡى السمو 
+          <lb n="15" break="no"/>
+          ت وما ڡى الارص وما بىنهما وما
+          تحت 
+          <lb n="16"/>
+          <app>
+            <lem>
+              الثَّرىٰ 
+            </lem>
+            <rdg type="phonetics" cause="shiftTH,T">
+              الترى 
+            </rdg>
+          </app>
+          <pc unit="ayah" pre="false">
+            &fasila6;
+          </pc>
+        </ab>
+        <ab type="ayah" n="7">
+          واں تحهر بالٯول ڡانه ىعلم السر 
+          <lb n="17"/>
+          واحڡى 
+          <pc unit="ayah" pre="false">
+            &fasila6;
+          </pc>
+        </ab>
+        <ab type="ayah" n="8">
+          الله لا اله الا هو له الاسما ا 
+          <lb n="18" break="no"/>
+          لحسنى 
+          <pc unit="ayah" pre="false">
+            &fasila5;
+          </pc>
+        </ab>
+        <ab type="ayah" n="9">
+          وهل اتٮک 
+          <app>
+            <lem>
+              حَديثُ 
+            </lem>
+            <rdg type="phonetics" cause="shiftTH,T">
+              حدىت 
+            </rdg>
+          </app>
+          موسى 
+          <retrace hand="#thirdStage">
+            <pc unit="ayah" pre="false">
+              &fasila5;
+            </pc>
+          </retrace>
+        </ab>
+        <ab type="ayah" n="10">
+          اد 
+          <lb n="19"/>
+          را نارا 
+          <app>
+            <lem>
+              فَقالَ 
+            </lem>
+            <rdg type="orthography" cause="alif,longA">
+              ڡٯل 
+            </rdg>
+          </app>
+          لاهله امكثوا انى انست نا 
+          <lb n="20" break="no"/>
+          را لعلى اتىكم منها بٯبس او احد على ا 
+          <lb n="21" break="no"/>
+          لنار هدى 
+          <pc unit="ayah" pre="false">
+            &fasila6;
+          </pc>
+        </ab>
+        <ab type="ayah" n="11">
+          ڡلما اتٮها نودى ىموسى 
+          <retrace hand="#thirdStage">
+            <pc unit="ayah" pre="false">
+              &fasila5;
+            </pc>
+          </retrace>
+          <metamark function="ʿāšir" rend="blackInk">
+            circle
+            <note>
+              the later hand counts neither the basmala 
+              nor the first verse Ṭā-Hā as verses like the first hand has done
+            </note>
+          </metamark>
+        </ab>
+        <lb n="22"/>
+        <ab type="ayah" n="12">
+          انى انا رٮک ڡاحلع نعلىک انک با 
+          <lb n="23" break="no"/>
+          لواد المٯدس 
+          <app>
+            <rdg type="#firstStage">
+              طاوى 
+            </rdg>
+            <rdg type="#thirdStage">
+              <mod type="del">
+                طوى </mod>
+            </rdg>
+            <wit source="qāriʾ">
+              عيسى بن عمر والضحاك 
+              <note type="qirāʾah#1">
+                طاوِىْ ﭐذهب 
+              </note>
+              <note type="qirāʾah#2">
+                وقرأت فرقة " طاوي " وقالت فرقة هو اسم الوادي 
+              </note>
+            </wit>
+          </app>
+          <retrace hand="#thirdStage">
+            <pc unit="ayah" pre="false">
+              &fasila5;
+            </pc>
+          </retrace>
+        </ab>
+        <ab type="ayah" n="13">
+          وانا احترتک 
+                    
+          <pb facs="folio 1v.jpg"/>
+          <!-- text contained on folio 1v is encoded here http://vmr.bham.ac.uk/Collections/Mingana/Islamic_Arabic_1572a/Mingana_Islamic_Arabic_1572a_folio_2_verso/viewer/full/ text contained on folio 1v is encoded here -->
+          <pb n="1v"/>
+          <lb n="1"/>
+          ڡاستمع لما ىوحى 
+          <retrace hand="#thirdStage">
+            <pc unit="ayah" pre="false">
+              &fasila5;
+            </pc>
+          </retrace> 
+        </ab>
+        <ab type="ayah" n="14">
+          اننى انا الله لا اله الا 
+          <lb n="2"/>
+          انا ڡاعٮدنى واٯم الصلوه لدكرى
+            <pc unit="ayah" pre="false">
+              &fasila6;
+            </pc>
+        </ab>
+        <ab type="ayah" n="15">
+          اں ا 
+          <lb n="3" break="no"/>
+          لساعه ا 
+          <supplied reason="illegible">
+            تيه 
+          </supplied>
+          اكاد احڡىها لتحزى كل ٮڡس بما 
+          <lb n="4"/>
+          تسعى 
+          <pc unit="ayah" pre="false">
+            &fasila5;
+          </pc>
+        </ab>
+        <ab type="ayah" n="16">
+          ڡلا 
+          <app>
+            <lem>
+              يَصُدَّنَّكَ 
+            </lem>
+            <rdg type="orthography" cause="suffixEmph,N">
+              <unclear>
+                ىصدنٮک 
+              </unclear>
+            </rdg>
+          </app>
+          عنعنها مں لا ىومں بها وانٮع 
+          <lb n="5"/>
+          هوٮه ڡتردى 
+          <unclear reason="faded ink">
+            <pc unit="ayah" pre="false">
+              &fasila6;
+            </pc>
+          </unclear>
+        </ab>
+        <ab type="ayah" n="17">
+          وما تلک ٮىمىٮک ىموسى 
+          <pc unit="ayah" pre="false">
+            &fasila5;
+          </pc>
+        </ab>
+        <ab type="ayah" n="18">
+          <app>
+            <lem>
+              قالَ 
+            </lem>
+            <rdg type="orthography" cause="alif,longA">
+              ٯل 
+            </rdg>
+          </app>
+          <lb n="6"/>
+          هى عصاى 
+          <app>
+            <lem>
+              أَتَوَكَّؤُا۟ 
+            </lem>
+            <rdg type="ortho-epic" cause="hamzaFinal,U">
+              اٮوكا 
+            </rdg>
+          </app>
+          علىها واهس ٮها على 
+          <lb n="7"/>
+          غنمى ولى فىها مارب احرى 
+          <pc unit="ayah" pre="false">
+            &fasila6;
+          </pc>
+        </ab>
+        <ab type="ayah" n="19">
+          <app>
+            <lem>
+              قالَ 
+            </lem>
+            <rdg type="orthography" cause="alif,longA">
+              ٯل 
+            </rdg>
+          </app>
+          <retrace hand="#thirdStage" scope="diaQ">
+            <note type="script">
+              qāf ’alqi-hā has been provided with one single diacritical stroke
+              placed above and probably added by a later hand, as in all the manuscript the copyist
+              has the habit not to provide qāf with diacritics. As qāf was distinguished by a dot
+              above or below in the second century H, the addition of the diacritic in the ms could
+              suggest the period in which the later hand has worked. However the system of
+              distinguishing qāf placing a dot above and fā’ with a dot below has been preserved in
+              maghribi script so that the position of the diacritic in the ms could suggest the
+              provenance of the later hand
+            </note>
+            الڧها 
+          </retrace>
+          ىمو 
+          <lb n="8" break="no"/>
+          سى
+            <retrace hand="#thirdStage">
+              <pc unit="ayah" pre="false">
+                &fasila4;
+              </pc>
+            </retrace>
+        </ab>
+        <ab type="ayah" n="20">
+          ڡالٯٮها ڡادا هى حىه ٮسعى 
+          <retrace hand="#thirdStage">
+            <pc unit="ayah" pre="false">
+              &fasila6;
+            </pc>
+          </retrace>
+        </ab>
+        <ab type="ayah" n="21">
+          <app>
+            <lem>
+              قالَ 
+            </lem>
+            <rdg type="orthography" cause="alif,longA">
+              ٯل 
+            </rdg>
+          </app>
+          حد 
+          <lb n="9" break="no"/>
+          ها ولا ٮحڡ سنعىدها سىرتها الاولى 
+          <pc unit="ayah" pre="false">
+            &fasila6;
+          </pc>
+          <metamark function="ʿāšir" rend="blackInk">
+            circle
+          </metamark>
+        </ab>
+        <ab type="ayah" n="22">
+          و 
+          <lb n="10" break="no"/>
+          اصمم ىدک الى 
+          <app>
+            <lem>
+              جَناحِكَ 
+            </lem>
+            <rdg type="orthography" cause="alif,longA">
+              حنحک 
+            </rdg>
+          </app>
+          ٮحرح بىصا مں 
+          <lb n="11"/>
+          عىر سو اىه احرى 
+          <pc unit="ayah" pre="false">
+            &fasila5;
+          </pc>
+        </ab>
+        <ab type="ayah" n="23">
+          لنرىک مں 
+          <choice>
+            <sic>
+              اتىنا 
+            </sic>
+            <corr type="metathesis">
+              اىتنا 
+            </corr>
+          </choice>
+          الكبرى 
+          <pc unit="ayah" pre="false">
+            &fasila6;
+          </pc>
+        </ab>
+        <lb n="12"/>
+        <ab type="ayah" n="24">
+          ادهب الى ڡرعوں انه طعى 
+          <retrace hand="#thirdStage">
+            <pc unit="ayah" pre="false">
+              &fasila5;
+            </pc>
+          </retrace>
+        </ab>
+        <ab type="ayah" n="25">
+          <app>
+            <lem>
+              قالَ 
+            </lem>
+            <rdg type="orthography" cause="alif,longA">
+              ٯل 
+            </rdg>
+          </app>
+          رب ا 
+          <lb n="13" break="no"/>
+          سرح لى صدرى 
+          <app>
+            <rdg type="verseSubdivision">
+              <gap/>
+              <note>
+                absence of marker of end of verse 25 of the base text
+              </note>
+            </rdg>
+          </app>
+        </ab>
+        <ab type="ayah" n="26">
+          وىسر لى امرى 
+          <pc unit="ayah" pre="false">
+            &fasila5;
+          </pc>
+        </ab>
+        <ab type="ayah" n="27">
+          واحلل 
+          <lb n="14"/>
+          ععٯده مں 
+          <app>
+            <lem>
+              لِسانى 
+            </lem>
+            <rdg type="orthography" cause="alif,longA">
+              لسنى 
+            </rdg>
+          </app>
+          <retrace hand="#thirdStage">
+            <pc unit="ayah" pre="false">
+              &fasila5;
+            </pc>
+          </retrace>
+        </ab>
+        <ab type="ayah" n="28">
+          ىڡٯهوا ٯولى 
+          <retrace hand="#thirdStage">
+            <pc unit="ayah" pre="false">
+              &fasila6;
+            </pc>
+          </retrace>
+        </ab>
+        <ab type="ayah" n="29">
+          واحعل 
+          <lb n="15"/>
+          لى وزىرا مں اهلى 
+          <retrace hand="#thirdStage">
+            <pc unit="ayah" pre="false">
+              &fasila5;
+            </pc>
+          </retrace>
+        </ab>
+        <ab type="ayah" n="30">
+          هروں احى 
+          <retrace hand="#thirdStage">
+            <pc unit="ayah" pre="false">
+              &fasila5;
+            </pc>
+          </retrace>
+        </ab>
+        <ab type="ayah" n="31">
+          <app>
+            <rdg type="#firstStage">
+              واسدد 
+            </rdg>
+            <rdg type="#thirdStage">
+              <mod type="del">
+                اسدد 
+              </mod>
+            </rdg>
+            <wit source="qāriʾ">
+              ابن مسعود 
+              <note type="qirāʾah">
+                أخي واشدد 
+              </note>
+            </wit>
+          </app>
+          <lb n="16"/>
+          به اررى 
+          <pc unit="ayah" pre="false">
+            &fasila4;
+          </pc>
+          <metamark function="ʿāšir" rend="blackInk">
+            circle
+            <note>
+              the later hand has considered verse 25 as a unity 
+              despite the fact that the first hand has not placed the fasila at its end. 
+              This seems to suggest that the counting of the later hand is independent 
+              from the markers of end of verses indicated by the first hand
+            </note>
+          </metamark>
+        </ab>
+        <ab type="ayah" n="32">
+          واسركه ڡى امرى 
+          <retrace hand="#thirdStage">
+            <pc unit="ayah" pre="false">
+              &fasila5;
+            </pc>
+          </retrace>
+        </ab>
+        <ab type="ayah" n="33">
+          كى ٮسٮحک 
+          <lb n="17"/>
+          كٮىرا 
+          <retrace hand="#thirdStage">
+            <pc unit="ayah" pre="false">
+              &fasila5;
+            </pc>
+          </retrace>
+        </ab>
+        <ab type="ayah" n="34">
+          وٮدكرک كٮىرا 
+          <retrace hand="#thirdStage">
+            <pc unit="ayah" pre="false">
+              &fasila5;
+            </pc>
+          </retrace>
+        </ab>
+        <ab type="ayah" n="35">
+          اٮک كٮٮ بنا 
+          <lb n="18"/>
+          بصىرا 
+          <pc unit="ayah" pre="false">
+            &fasila5;
+          </pc>
+        </ab>
+        <ab type="ayah" n="36">
+          <app>
+            <lem>
+              قالَ 
+            </lem>
+            <rdg type="orthography" cause="alif,longA">
+              ٯل 
+            </rdg>
+          </app>
+          ٯد اوتىت سولک ىموسى 
+          <pc unit="ayah" pre="false">
+            &fasila;
+          </pc>
+        </ab>
+        <ab type="ayah" n="37">
+          ولٯد 
+          <lb n="19"/>
+          مننا علىک مره احرى 
+          <pc unit="ayah" pre="false">
+            &fasila5;
+          </pc>
+        </ab>
+        <ab type="ayah" n="38">
+          اد اوحىنا الى 
+          <lb n="20"/>
+          امک ما ىوحى 
+          <pc unit="ayah" pre="false">
+            &fasila5;
+          </pc>
+        </ab>
+        <ab type="ayah" n="39">
+          اں اٯدڡىه ڡى 
+          <app>
+            <lem>
+              التّابوتِ 
+            </lem>
+            <rdg type="orthography" cause="alif,longA">
+              التبوت 
+            </rdg>
+          </app>
+          ڡا 
+          <lb n="21" break="no"/>
+          ٯدڡىه ڡى الىم 
+          <app>
+            <rdg type="verseSubdivision">
+              <retrace hand="#thirdStage">
+                <pc unit="ayah" pre="false">
+                  &fasila5;
+                </pc>
+              </retrace>
+              <note>
+                presence of extra marker of end of verse within verse 39 of the base text
+              </note>
+            </rdg>
+          </app>
+          ڡلىلٯه الىم 
+          <app>
+            <lem>
+              بِالسّاحِلِ 
+            </lem>
+            <rdg type="orthography" cause="alif,longA">
+              ٮالسحل 
+            </rdg>
+          </app>
+          ىاحد 
+          <lb n="22" break="no"/>
+          ه عدو لى وعدو له والٯىت علىک 
+          <lb n="23"/>
+          <supplied
+            reason="lacuna">
+            محـ 
+          </supplied>
+          ـٮه منى ولتصنع على عىنى 
+          <retrace hand="#thirdStage">
+            <pc unit="ayah" pre="false">
+              &fasila5;
+            </pc>
+          </retrace>
+        </ab>
+        <ab type="ayah" n="40">
+          اد تمشى 
+          
+          <pb n="1v+"/>
+          <lb n="1"/>
+          <gap reason="verselacuna" extent="41-135"/>
+        </ab>
+      </div>
+    </body>
+  </text>
+</TEI>

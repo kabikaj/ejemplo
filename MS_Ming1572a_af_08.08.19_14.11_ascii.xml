@@ -1,13 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="Arabic1.xsl"?><!DOCTYPE transcription [
-	<!ENTITY lac "[Lacuna]"> <!-- Lacuna -->  
-	<!ENTITY fasila "·"> <!-- fasila -->
-	<!ENTITY fasila3 "·"> <!-- fasila3 -->
-	<!ENTITY fasila4 "·"> <!-- fasila4 -->
-	<!ENTITY fasila5 "·"> <!-- fasila5 -->
-	<!ENTITY fasila6 " ∵ "> <!-- fasila6 -->
-	<!ENTITY khatima "~~~~~~~~"> <!--khatima -->
-]>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
